@@ -1,0 +1,450 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Countdown from '../components/Countdown.svelte';
+import Speakers from '../components/Speakers.svelte';
+---
+
+
+  <Layout>
+    <div class="mil-wrapper" id="top">
+
+        <div class="mil-ball">
+            <span class="mil-icon-1">
+                <svg viewBox="0 0 128 128">
+                    <path d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z" />
+                </svg>
+            </span>
+            <div class="mil-more-text">View</div>
+        </div>
+
+       
+
+        <!-- scrollbar progress -->
+        <div class="mil-progress-track">
+            <div class="mil-progress"></div>
+        </div>
+        <!-- scrollbar progress end -->
+
+        <!-- menu -->
+        <div class="mil-menu-frame">
+            <!-- frame clone -->
+            <div class="mil-frame-top">
+                <!-- <a href="/" class="mil-logo">
+                    <img src="/img/logo.svg" alt="header logo" class="md:h-20 h-16">
+                    <img src="/img/Fablab.svg" alt="header logo" class="md:h-20 h-16">
+                </a> -->
+            </div>
+            <!-- frame clone end -->
+            <div class="container">
+                <div class="mil-menu-content">
+                    <div class="row">
+                        <div class="col-xl-5">
+
+                            <nav class="mil-main-menu" id="swupMenu">
+                                
+                            </nav>
+
+                        </div>
+                        <div class="col-xl-7">
+
+                            <div class="mil-menu-right-frame">
+                                <div class="mil-animation-in">
+                                    <div class="mil-animation-frame">
+                                        <div class="mil-animation mil-position-1 mil-scale" data-value-1="2" data-value-2="2"></div>
+                                    </div>
+                                </div>
+                                <div class="mil-menu-right">
+                                    <div class="row">
+                                        <div class="col-lg-8 mil-mb-60">
+
+                                        </div>
+                                        <div class="col-lg-4 mil-mb-60">
+
+                                        </div>
+                                    </div>
+                                    <div class="mil-divider mil-mb-60"></div>
+                                    <div class="row justify-content-between">
+
+                                        <div class="col-lg-4 mil-mb-60">
+
+                                          
+                                        </div>
+                                        <div class="col-lg-4 mil-mb-60">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu -->
+        
+        <!-- curtain -->
+        <div class="mil-curtain"></div>
+        <!-- curtain end -->
+
+        <!-- frame -->
+        <div class="mil-frame">
+            <div class="mil-frame-top">
+                <!-- <a href="/" class="flex flex-row">
+                    <img src="/img/logo.svg" alt="" class="md:h-16 h-16">
+                    <img src="/img/Fablab.svg" alt="" class="md:h-16 h-16">
+                </a> -->
+               
+            </div>
+            <div class="mil-frame-bottom">
+                <div class="mil-current-page"></div>
+                <div class="mil-back-to-top">
+                    <a href="#top" class="mil-link mil-dark mil-arrow-place">
+                        <span>Back to top</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- frame end -->
+
+        <!-- content -->
+        <div class="mil-content">
+            <div id="swupMain" class="mil-main-transition">
+
+                <!-- banner -->
+                <section class="mil-banner mil-dark-bg">
+                    <div class="mi-invert-fix">
+                        <div class="mil-animation-frame">
+                            <div class="mil-animation mil-position-1 mil-scale" data-value-1="7" data-value-2="1.6"></div>
+                            <div class="mil-animation mil-position-2 mil-scale" data-value-1="4" data-value-2="1"></div>
+                            <div class="mil-animation mil-position-3 mil-scale" data-value-1="1.2" data-value-2=".1"></div>
+                        </div>
+
+                        <div class="mil-gradient"></div>
+
+                        <div class="container">
+                            <div class="mil-banner-content ">
+
+                                <h1 class="mil-muted  text-6xl mb-10"> <span class="mil-thin ">Creator 
+                                    </span><br>Residency<span class="mil-thin">Program</span></h1>
+                                <div class="row">
+                                    <div class="col-md-7 col-lg-5">
+                                        <p class="mil-light-soft mil-mb-60 text-gray-50">
+                                            We invite artists, makers, technologists, and innovators to explore new ideas and new methods of creation at Super FabLab Kochi and explore how digital tools and emerging technologies can be harnessed to enhance the narrative, aesthetic, and emotional impact of traditional arts.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <a onclick="window.open('https://forms.startupmission.in/keralastartupmission/form/EventRegistration18/formperma/Lt8ph8U8sqC47W_LvcrlqgffEsPvZUI3tTumrcIjZfk', '_blank'); return false;" class="mil-button mil-arrow-place mil-btn-space">
+                                    <span>Apply Now</span>
+                                </a>
+
+
+                                <div class="mil-circle-text">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve" class="mil-ct-svg mil-rotate" data-value="360">
+                                        <defs>
+                                            <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
+                                        </defs>
+                                        <circle cx="150" cy="100" r="75" fill="none" />
+                                        <g>
+                                            <use xlink:href="#circlePath" fill="none" />
+                                            <text style="letter-spacing: 6.5px">
+                                                <!-- circle text -->
+                                                <textPath xlink:href="#circlePath">Scroll down - Scroll down - </textPath>
+                                            </text>
+                                        </g>
+                                    </svg>
+                                    <a href="#about" class="mil-button mil-arrow-place mil-icon-button mil-arrow-down"></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- banner end -->
+
+                <!-- about -->
+                <section id="about">
+                    <div class="container mil-p-120-30">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-6 col-xl-5">
+
+                                <div class="mil-mb-90">
+                                    <h2 class=" mil-mb-30 text-4xl font-semibold">Program Details</h2>
+                                    <p class=" mil-mb-30 text-gray-600">
+                                        During the 6 month fellowship, the selected artists and makers will be expected to conceptualise, design and build an installation which integrates art, technology and digital fabrication. Selected fellows will get access to the advanced fabrication machines at Super Fab Lab and a chance to collaborate with other artists, makers and techies. 
+                                    </p>
+
+                                    <p class=" mb-6 text-gray-600">
+                                        Duration: <span class=" font-semibold">6 months</span> (extension will be given only in exceptional cases)<br>
+                                        <span class="py-1">Stipend: Rs <span class=" font-semibold">25,000</span> per month<br></span>
+                                        Exhibition Opportunity: Huddle Global 2024 and KLF 2025.<br>
+                                        
+                                    </p>
+
+                                    <p class=" mb-6 text-gray-600">
+                                        Application Deadline: 30th September 2024
+
+                                    </p>
+
+                                    <p class=" mb-6 italic">
+                                        Since we expect a large number of applications, the initial shortlist will be based on the portfolio of work and project proposal submitted by you.
+
+                                    </p>
+
+                                    <div class=""><a href="" target="_blank" class="mil-button mil-arrow-place mil-mb-60"><span>Apply Now</span></a></div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-5">
+
+                                <div class="mil-about-photo mil-mb-90">
+                                    <div class="mil-lines-place"></div>
+                                    <div class=" mil-img-frame" style="padding-bottom: 160%;">
+                                        <img src="img/photo/1.jpg" alt="img">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- about end -->
+
+                <!-- services -->
+                <section class="mil-dark-bg">
+                    <div class="mi-invert-fix">
+                        <div class="mil-animation-frame">
+                            <div class="mil-animation mil-position-1 mil-scale" style="top: 300px; right: -100px"></div>
+                            <div class="mil-animation mil-position-2 mil-scale"  style="left: 150px"></div>
+                        </div>
+                        <div class="container mil-p-120-0">
+
+                            <div class="mil-mb-120">
+                            
+
+                                <div class="mil-complex-text justify-content-center  mil-mb-15">
+
+                                    <span class="mil-text-image"><img src="/img/2.jpg" alt="team"></span>
+                                    <h2 class="mil-h1 mil-muted mil-center"><span class="mil-thin">The</span> OBJECTIVES</h2>
+
+                                </div>
+
+                                <div class="text-white text-center  pt-10">
+                                    <p class="mil-light-soft mil-mb-60 text-white">
+                                        The residency program aims to create innovative art-tech projects that can be showcased in exhibitions or public installations, inspiring a new generation of creators and audiences. These projects will serve as examples of how traditional art can be preserved and reinterpreted through the use of new media. By blending art and technology, participants will push the boundaries of creative expression, making a lasting impact on both the art world and its audience.
+                                    </p>
+                                    <p class="mil-light-soft mil-mb-60 text-white">
+                                        Additionally, the program will document and share project outcomes, encouraging further exploration in the art-tech space and fostering collaboration among artists, designers, and technologists. This initiative will contribute to building tech-driven design and art communities within the state, enhancing skills, exposure, and professional development for participants, and ultimately nurturing a new generation of leaders in various fields.
+
+                                    </p>
+                                </div>
+                              
+                            </div>
+
+                          
+                        </div>
+                    </div>
+                </section>
+                <!-- services end -->
+
+              
+
+                <!-- reviews -->
+                <section class="mil-soft-bg">
+                    <div class="container mil-p-120-120">
+                        <div class="row">
+                            <div class="col-lg-10">
+
+                                <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark font-bold text-4xl ">WHY</span>
+
+                            </div>
+                        </div>
+                        <div class="mil-center">
+                            <p class=" leading-8 text-lg">
+                                Technology has always had a profound impact on society, transforming the way we live, work, and create. The world of art is no exception. The tools we use have continually transformed the way we express and communicate emotions, ideas, and stories. Art has evolved through our acquired knowledge of tools - Language, canvas, photographs, television, and the Internet. Technology has consistently augmented our capacity to convey art and creativity, and this evolution continues today. technology has the magical power to extend the reach of art to a wider audience and enhance its ability to communicate effectively. Whether through the creation of immersive digital experiences, interactive installations, or modern interpretations of classical forms, the fusion of these disciplines can lead to groundbreaking work that honors the past while pushing the boundaries of the future.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section id="portfolio">
+                    <div class="container mil-portfolio mil-p-120-60">
+                        <div class="col-lg-6 mil-mb-30">
+                            <h3 class=" md:text-4xl text-3xl font-bold">Project Inspirations
+                            </h3>
+                        </div>
+                        <div class="mil-lines-place"></div>
+                        <div class="mil-lines-place mil-lines-long"></div>
+                        
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-lg-5">
+                                <a onclick="window.open('https://www.instagram.com/reel/C3PrkdsPKM6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank'); return false;" class="mil-portfolio-item mil-more mil-mb-60">
+                                    <div class="mil-cover-frame mil-vert ">
+                                        <div class="mil-cover">
+                                            <img src="/img/1.png" alt="cover">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                       
+                                        <h4 class="">Art + AI + Robotics
+                                        </h4>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-lg-6">
+
+                                <a onclick="window.open('https://www.instagram.com/reel/C-uJbUvoyp6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank'); return false;" class="  mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="60" data-value-2="-60">
+                                    <div class="mil-cover-frame mil-hori ">
+                                        <div class="mil-cover">
+                                            <img src="/img/3.png" alt="cover">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                      
+                                        <h4 class="">Art + Biomimicry</h4>
+                                    </div>
+                                </a>
+
+                                <a onclick="window.open('https://www.instagram.com/p/BIyRLAlge8y/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==', '_blank'); return false;" class="mil-portfolio-item mil-more mil-parallax mil-mb-60" data-value-1="60" data-value-2="-60">
+                                    <div class="mil-cover-frame mil-hori ">
+                                        <div class="mil-cover">
+                                            <img src="/img/2.png" alt="cover">
+                                        </div>
+                                    </div>
+                                    <div class="mil-descr">
+                                     
+                                        <h4 class="">Art + BCI + Origami
+                                        </h4>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="bg-black py-24 md:px-20 px-10">
+                    <div class="flex flex-row">
+                        <img src="/img/logo-white.svg" alt="header logo" class="md:h-20 h-16">
+                        <img src="/img/Fablab.svg" alt="header logo" class="md:h-20 h-16">
+                   
+                    </div>
+                </section>
+            
+
+                <!-- hidden elements -->
+                <div class="mil-hidden-elements">
+                    <div class="mil-dodecahedron">
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="mil-pentagon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="mil-arrow">
+                        <path d="M 14 5.3417969 C 13.744125 5.3417969 13.487969 5.4412187 13.292969 5.6367188 L 13.207031 5.7226562 C 12.816031 6.1136563 12.816031 6.7467188 13.207031 7.1367188 L 17.070312 11 L 4 11 C 3.448 11 3 11.448 3 12 C 3 12.552 3.448 13 4 13 L 17.070312 13 L 13.207031 16.863281 C 12.816031 17.254281 12.816031 17.887344 13.207031 18.277344 L 13.292969 18.363281 C 13.683969 18.754281 14.317031 18.754281 14.707031 18.363281 L 20.363281 12.707031 C 20.754281 12.316031 20.754281 11.682969 20.363281 11.292969 L 14.707031 5.6367188 C 14.511531 5.4412187 14.255875 5.3417969 14 5.3417969 z" />
+                    </svg>
+
+                    <svg width="250" viewBox="0 0 300 1404" fill="none" xmlns="http://www.w3.org/2000/svg" class="mil-lines">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M1 892L1 941H299V892C299 809.71 232.29 743 150 743C67.7096 743 1 809.71 1 892ZM0 942H300V892C300 809.157 232.843 742 150 742C67.1573 742 0 809.157 0 892L0 942Z" class="mil-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 146V97L1 97V146C1 228.29 67.7096 295 150 295C232.29 295 299 228.29 299 146ZM300 96L0 96V146C0 228.843 67.1573 296 150 296C232.843 296 300 228.843 300 146V96Z" class="mil-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 1H1V1403H299V1ZM0 0V1404H300V0H0Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 -4.37115e-08L150 1404L149 1404L149 0L150 -4.37115e-08Z" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 1324C232.29 1324 299 1257.29 299 1175C299 1092.71 232.29 1026 150 1026C67.7096 1026 1 1092.71 1 1175C1 1257.29 67.7096 1324 150 1324ZM150 1325C232.843 1325 300 1257.84 300 1175C300 1092.16 232.843 1025 150 1025C67.1573 1025 0 1092.16 0 1175C0 1257.84 67.1573 1325 150 1325Z" class="mil-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M300 1175H0V1174H300V1175Z" class="mil-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M150 678C232.29 678 299 611.29 299 529C299 446.71 232.29 380 150 380C67.7096 380 1 446.71 1 529C1 611.29 67.7096 678 150 678ZM150 679C232.843 679 300 611.843 300 529C300 446.157 232.843 379 150 379C67.1573 379 0 446.157 0 529C0 611.843 67.1573 679 150 679Z" class="mil-move" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M299 380H1V678H299V380ZM0 379V679H300V379H0Z" class="mil-move" />
+                    </svg>
+                </div>
+                <!-- hidden elements end -->
+
+            </div>
+        </div>
+        <!-- content -->
+    </div>
+   
+  </Layout>

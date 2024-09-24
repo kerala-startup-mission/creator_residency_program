@@ -1,0 +1,58 @@
+---
+const { title } = Astro.props;
+
+import Navbar from "../components/Navbar.astro";
+
+const description = "Kerala Startup Mission is the central agency of the Government of Kerala for entrepreneurship development and incubation activities in Kerala, India.";
+const url = "https://startupmission.kerala.gov.in/";
+
+---
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- bootstrap grid css -->
+    <link rel="stylesheet" href="css/plugins/bootstrap-grid.css">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+    <!-- Creator Residency Program scss -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- page name -->
+    <title>Creator Residency Program</title>
+
+</head>
+	<body>
+		<!-- <Navbar></Navbar> -->
+		<slot />
+		<script src="js/plugins/jquery.min.js" is:inline></script>
+		<!-- swup js -->
+		<script src="js/plugins/swup.min.js" is:inline></script>
+		<!-- swiper js -->
+		<script src="js/plugins/swiper.min.js" is:inline></script>
+		<!-- fancybox js -->
+		<script src="js/plugins/fancybox.min.js" is:inline></script>
+		<!-- gsap js -->
+		<script src="js/plugins/gsap.min.js" is:inline></script>
+		<!-- scroll smoother -->
+		<script src="js/plugins/smooth-scroll.js" is:inline></script>
+		<!-- scroll trigger js -->
+		<script src="js/plugins/ScrollTrigger.min.js" is:inline></script>
+		<!-- scroll to js -->
+		<script src="js/plugins/ScrollTo.min.js" is:inline></script>
+		<!-- Creator Residency Program js -->
+		<script src="js/main.js" is:inline></script>
+	
+	</body>
+	
+</html>
+	
